@@ -1,0 +1,31 @@
+[2022-05-04T15:52:09.374+0200][gc,heap] Heap region size: 1M
+[2022-05-04T15:52:09.380+0200][gc     ] Using G1
+[2022-05-04T15:52:09.380+0200][gc,heap,coops] Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: 32-bit
+[2022-05-04T15:52:09.380+0200][gc,cds       ] Mark closed archive regions in map: [0x00000000fff00000, 0x00000000fff6aff8]
+[2022-05-04T15:52:09.380+0200][gc,cds       ] Mark open archive regions in map: [0x00000000ffe00000, 0x00000000ffe46ff8]
+[2022-05-04T15:52:09.945+0200][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-05-04T15:52:09.945+0200][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2022-05-04T15:52:09.955+0200][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0,0ms
+[2022-05-04T15:52:09.955+0200][gc,phases    ] GC(0)   Evacuate Collection Set: 9,8ms
+[2022-05-04T15:52:09.955+0200][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0,3ms
+[2022-05-04T15:52:09.955+0200][gc,phases    ] GC(0)   Other: 0,4ms
+[2022-05-04T15:52:09.955+0200][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2022-05-04T15:52:09.955+0200][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2022-05-04T15:52:09.955+0200][gc,heap      ] GC(0) Old regions: 2->5
+[2022-05-04T15:52:09.955+0200][gc,heap      ] GC(0) Humongous regions: 0->0
+[2022-05-04T15:52:09.955+0200][gc,metaspace ] GC(0) Metaspace: 7768K->7768K(1056768K)
+[2022-05-04T15:52:09.955+0200][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->7M(512M) 10,550ms
+[2022-05-04T15:52:09.955+0200][gc,cpu       ] GC(0) User=0,05s Sys=0,00s Real=0,02s
+[2022-05-04T19:31:21.072+0200][gc,start     ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-05-04T19:31:21.084+0200][gc,task      ] GC(1) Using 4 workers of 4 for evacuation
+[2022-05-04T19:31:21.103+0200][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 3,5ms
+[2022-05-04T19:31:21.103+0200][gc,phases    ] GC(1)   Evacuate Collection Set: 14,4ms
+[2022-05-04T19:31:21.103+0200][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0,3ms
+[2022-05-04T19:31:21.103+0200][gc,phases    ] GC(1)   Other: 13,2ms
+[2022-05-04T19:31:21.103+0200][gc,heap      ] GC(1) Eden regions: 21->0(24)
+[2022-05-04T19:31:21.103+0200][gc,heap      ] GC(1) Survivor regions: 4->1(4)
+[2022-05-04T19:31:21.103+0200][gc,heap      ] GC(1) Old regions: 5->9
+[2022-05-04T19:31:21.103+0200][gc,heap      ] GC(1) Humongous regions: 0->0
+[2022-05-04T19:31:21.103+0200][gc,metaspace ] GC(1) Metaspace: 9311K->9311K(1058816K)
+[2022-05-04T19:31:21.103+0200][gc           ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 28M->8M(512M) 31,376ms
+[2022-05-04T19:31:21.103+0200][gc,cpu       ] GC(1) User=0,05s Sys=0,00s Real=0,03s

@@ -9,3 +9,5 @@ Install and start mongo db: `sudo apt install mongodb-org`, `sudo systemctl star
 Run `node app.js` to run the project.
 
 Add the orders on `http://localhost:8080/create` by POST request with params
+
+Presentation: https://1drv.ms/p/s!Au6KdXdZpmZ9pWMTwVACDA8VOkWZ?e=jYwmEo
